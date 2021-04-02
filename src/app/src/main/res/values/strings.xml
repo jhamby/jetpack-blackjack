@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">Blackjack</string>
+    <string name="app_name">MVP Blackjack</string>
+    <string name="game_welcome">Welcome to Blackjack!</string>
+    <string name="player_balance">Player Balance: $%1$s</string>
+    <string name="number_of_decks">Number of decks: %1$s</string>
+    <string name="shuffle_percent">Shuffle the deck at %1$s%%</string>
+    <string name="deal_speed">Deal %1$s cards per second</string>
+    <string name="play_game_label">Play Game</string>
+    <string name="game_rules_label">Rules of Blackjack</string>
+    <string name="settings_label">Settings</string>
+    <string name="game_rules_text">The goal of Blackjack is to play a hand with a higher value than the dealer\'s hand, without going over 21. The players and dealer each receive two cards to start, with only one of the dealer\'s cards visible. All cards count at their face value, with Jack, Queen, and King counting as 10, and Ace counting as either 1 or 11. A hand with an Ace and a 10-value card is called Blackjack and pays 3 to 2.\\n\\nThe player wins the value of their bet if their hand has a higher value than the dealer, loses the bet if their hand has a lower value, and keeps the original bet if they\'re the same, called a \\\"push\\\".\\n\\nIf the dealer\'s visible card is an Ace, you can buy insurance against the dealer having Blackjack. This is a side bet of up to half of your current bet, and pays 2 to 1 if the dealer has Blackjack.\\n\\nFor each deal, you can \\\"hit\\\" to add another card, \\\"stand\\\" if you\'re satisfied with your hand, or \\\"double down\\\" to increase your bet by up to 100% in return for receiving exactly one more card. If your first two cards have the same value, you can \\\"split\\\" them into two hands, which doubles your bet. A second card is dealt for each of the two hands, and you can play each one separately.\\n\\nThe dealer always hits until their hand is 17 or higher. The dealer will also hit on \\\"soft 17\\\" (a hand containing an Ace and cards adding up to 6, for a total of 17 or 7), but this rule can be changed in Settings.</string>
+    <string name="dealer_hits_soft_17">Dealer hits soft 17</string>
+    <string name="dealer_stands_soft_17">Dealer stands on soft 17</string>
+    <string name="setting_num_decks_label">Number of decks</string>
+    <string name="setting_shuffle_percent">Shuffle the deck at</string>
+    <string name="setting_reset_balance">Reset balance</string>
+    <string name="player_bet">Bet $%1$s</string>
+    <string name="play_button_hit">Hit</string>
+    <string name="play_button_stand">Stand</string>
+    <string name="play_button_double">Double Down</string>
+    <string name="play_button_split">Split</string>
+    <string name="player_prompt">Your Turn</string>
+    <string name="player_wins">You win $%1$s</string>
+    <string name="player_loses">You lose $%1$s</string>
+    <string name="player_pushes">Push</string>
+    <string name="player_blackjack">Blackjack! You win $%1$s</string>
+    <string name="dealer_insurance">Would you like to buy insurance?</string>
+    <string name="dealer_blackjack">Dealer has Blackjack! You lose $%1$s</string>
+    <string name="dealer_blackjack_insurance">Dealer has Blackjack! Your insurance paid for your bet.</string>
+    <string name="dealer_no_blackjack_insurance">Dealer doesn\'t have Blackjack. You lose your insurance bet.</string>
+    <string name="player_hand_total">Hand %1$s Total: %2$s</string>
+    <string name="dealer_total">Dealer Total: %1$s</string>
 </resources>

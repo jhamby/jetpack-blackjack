@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blackjack MVP</string>
+    <string name="game_welcome">¡Bienvenido al Blackjack!</string>
+    <string name="player_balance">Saldo del jugador: $%1$s</string>
+    <string name="number_of_decks">Número de mazos: %1$s</string>
+    <string name="shuffle_percent">Baraja la baraja al %1$s%%</string>
+    <string name="deal_speed">Reparte %1$s cartas por segundo</string>
+    <string name="play_game_label">Jugar el juego</string>
+    <string name="game_rules_label">Reglas del Blackjack</string>
+    <string name="settings_label">Ajustes</string>
+    <string name="game_rules_text">El objetivo del Blackjack es jugar una mano con un valor más alto que la mano del crupier, sin pasar de 21. Los jugadores y el crupier reciben cada uno dos cartas para comenzar, con solo una de las cartas del crupier visible. Todas las cartas cuentan por su valor nominal, con Jota, Reina y Rey contando como 10, y As contando como 1 u 11. Una mano con un As y una carta de valor 10 se llama Blackjack y paga 3 a 2.\\n\\nEl jugador gana el valor de su apuesta si su mano tiene un valor más alto que el del crupier, pierde la apuesta si su mano tiene un valor más bajo y mantiene la apuesta original si son iguales.\\n\\nSi la carta visible del crupier es un As, puede comprar un seguro para que el crupier no tenga Blackjack. Esta es una apuesta adicional de hasta la mitad de su apuesta actual y paga 2 a 1 si el crupier tiene Blackjack.\\n\\nPara cada trato, puede \\\"pedir\\\" para agregar otra carta, \\\"plantarse\\\" si está satisfecho con su mano o \\\"doblar\\\" para aumentar su apuesta hasta en un 100% a cambio de recibir exactamente una carta más. Si sus dos primeras cartas tienen el mismo valor, puede \\\"separarlas\\\" en dos manos, lo que duplica su apuesta. Se reparte una segunda carta para cada una de las dos manos, y puede jugar cada una por separado.\\n\\nEl crupier siempre pide hasta que su mano sea 17 o más. El crupier también solicitará un \\\"17 suave\\\" (una mano que contiene un As y cartas que suman 6, para un total de 17 o 7), pero esta regla se puede cambiar en Configuración.</string>
+    <string name="dealer_hits_soft_17">El crupier golpea suave 17</string>
+    <string name="dealer_stands_soft_17">El crupier se para en 17 suave</string>
+    <string name="setting_num_decks_label">Numero de mazos</string>
+    <string name="setting_shuffle_percent">Baraja la baraja al</string>
+    <string name="setting_reset_balance">Restablecer saldo</string>
+    <string name="player_bet">Apuesta $%1$s</string>
+    <string name="play_button_hit">Pedir</string>
+    <string name="play_button_stand">Plantarse</string>
+    <string name="play_button_double">Doblar</string>
+    <string name="play_button_split">Separarlas</string>
+    <string name="player_prompt">Tu turno</string>
+    <string name="player_wins">Ganas $%1$s</string>
+    <string name="player_loses">Pierdes $%1$s</string>
+    <string name="player_pushes">Empata</string>
+    <string name="player_blackjack">¡Blackjack! Ganas $%1$s</string>
+    <string name="dealer_insurance">¿Le gustaría contratar un seguro?</string>
+    <string name="dealer_blackjack">¡El crupier tiene Blackjack! Pierdes $%1$s</string>
+    <string name="dealer_blackjack_insurance">¡El crupier tiene Blackjack! Tu seguro pagó tu apuesta.</string>
+    <string name="dealer_no_blackjack_insurance">El crupier no tiene Blackjack. Pierde su apuesta de seguro.</string>
+    <string name="player_hand_total">Total mano %1$s: %2$s</string>
+    <string name="dealer_total">Total del crupier: %1$s</string>
+</resources>

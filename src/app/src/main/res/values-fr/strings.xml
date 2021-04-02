@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blackjack MVP</string>
+    <string name="game_welcome">Bienvenue au Blackjack!</string>
+    <string name="player_balance">Solde du joueur: $%1$s</string>
+    <string name="number_of_decks">Nombre de paquets: %1$s</string>
+    <string name="shuffle_percent">Mélangez le jeu à %1$s%%</string>
+    <string name="deal_speed">Distribuez %1$s cartes par seconde</string>
+    <string name="play_game_label">Jouer le jeu</string>
+    <string name="game_rules_label">Règles du Blackjack</string>
+    <string name="settings_label">Réglages</string>
+    <string name="game_rules_text">Le but du Blackjack est de jouer une main avec une valeur supérieure à la main du croupier, sans dépasser 21. Les joueurs et le croupier reçoivent chacun deux cartes pour commencer, avec une seule des cartes du croupier visible. Toutes les cartes comptent à leur valeur nominale, avec Jack, Queen et King comptant pour 10, et As comptant pour 1 ou 11. Une main avec un As et une carte de valeur 10 est appelée Blackjack et paie 3 contre 2.\\n\\nLe joueur gagne la valeur de sa mise si sa main a une valeur supérieure à celle du croupier, perd la mise si sa main a une valeur inférieure et conserve la mise initiale si elle est la même.\\n\\nSi la carte visible du croupier est un As, vous pouvez souscrire une assurance contre le croupier ayant un Blackjack. Il s\'agit d\'un pari parallèle jusqu\'à la moitié de votre mise actuelle, et paie 2 contre 1 si le croupier a un Blackjack.\\n\\nPour chaque accord, vous pouvez dire «Carte!» pour ajouter une autre carte, «je reste» si vous êtes satisfait de votre main ou «doubler» pour augmenter votre mise jusqu\'à 100% en échange de recevoir exactement une carte supplémentaire. Si vos deux premières cartes ont la même valeur, vous pouvez les «séparer» en deux mains, ce qui double votre mise. Une deuxième carte est distribuée pour chacune des deux mains, et vous pouvez jouer chacune séparément.\\n\\nLe croupier frappe toujours jusqu\'à ce que sa main soit supérieure ou égale à 17. Le croupier frappera également sur «17 soft» (une main contenant un as et des cartes totalisant jusqu\'à 6, pour un total de 17 ou 7), mais cette règle peut être modifiée dans les paramètres.</string>
+    <string name="dealer_hits_soft_17">Le croupier frappe sur 17 soft</string>
+    <string name="dealer_stands_soft_17">Le croupier se dresse sur 17 soft</string>
+    <string name="setting_num_decks_label">Nombre de paquets</string>
+    <string name="setting_shuffle_percent">Mélangez le jeu à</string>
+    <string name="setting_reset_balance">Réinitialiser le solde</string>
+    <string name="player_bet">Pari $%1$s</string>
+    <string name="play_button_hit">Carte</string>
+    <string name="play_button_stand">Rester</string>
+    <string name="play_button_double">Doubler</string>
+    <string name="play_button_split">Séparer</string>
+    <string name="player_prompt">À ton tour</string>
+    <string name="player_wins">Vous gagnez $%1$s</string>
+    <string name="player_loses">Vous perdez $%1$s</string>
+    <string name="player_pushes">Égalité</string>
+    <string name="player_blackjack">Blackjack! Vous gagnez $%1$s</string>
+    <string name="dealer_insurance">Acheter une assurance?</string>
+    <string name="dealer_blackjack">Le croupier a le Blackjack! Vous perdez $%1$s</string>
+    <string name="dealer_blackjack_insurance">Le croupier a le Blackjack! Votre assurance a couvert votre pari.</string>
+    <string name="dealer_no_blackjack_insurance">Le croupier n\'a pas de Blackjack. Vous perdez votre assurance.</string>
+    <string name="player_hand_total">Total de la main %1$s: %2$s</string>
+    <string name="dealer_total">Total du croupier: %1$s</string>
+</resources>
